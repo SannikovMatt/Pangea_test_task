@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(151, 83, 34, 0.767);
+}
+
+.App {
+  .Header {
+    margin-top: 10px;
+    margin-left: 10px;
+    min-height: 50px;
+  }
+
+  .Cards {
+    display: flex;
+    background-color: rgba(151, 83, 34, 0.767);
+    justify-content: space-around;
+  }
+}
