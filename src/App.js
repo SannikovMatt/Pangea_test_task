@@ -15,7 +15,8 @@ function App() {
   const location = document.location
 
   //Asiggn to url we need from the start
-  location.assign(`/#ref=${[...tags]}`)
+  location.assign(`${origin}/#ref=${[...tags]}`)
+  console.log(location,'LOCATION');
 
 
 
