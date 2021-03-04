@@ -15,9 +15,8 @@ function App() {
   const location = document.location
 
   //Asiggn to url we need from the start
-  //location.assign(`${origin}/dfgdfgdfg/#ref=${[...tags]}`)
-  console.log(`#ref=${[...tags]}`, '<<<<<<<<<');
-  console.log(location,'LOCATION');
+  location.replace(`${location.pathname}#ref=${[...tags]}`)
+
 
 
 
