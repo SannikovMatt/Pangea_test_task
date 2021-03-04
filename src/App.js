@@ -15,7 +15,7 @@ function App() {
   const location = document.location
 
   //Asiggn to url we need from the start
-  location.replace(`${location.pathname}#ref=${[...tags]}`)
+  location.replace(`${location.pathname}#tags=${[...tags]}`)
 
 
 
