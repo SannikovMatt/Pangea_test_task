@@ -17,7 +17,9 @@ function App() {
 
   if (location.href.includes('#tags=')) {
 
-    const newTags = location.href.split('#tags=')[1].split(',').filter((x) => x)
+    const decodedUrl = decodeURI(location.href)
+
+    const newTags = decodedUrl.split('#tags=')[1].split(',').filter((x) => x)
     //Check if the previous values in arrays are equal
     const equal = JSON.stringify(newTags) === JSON.stringify(tags)
 
@@ -60,8 +62,9 @@ function App() {
 
   //Add to state value of input
   const handleInputChange = (e) => {
-    const value = e.target.value
-    setInputValue(value)
+    let value = e.target.value
+    const newValue = value.replace(/[,]/g, ' ')
+    setInputValue(newValue)
   }
 
   return (
