@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Pangea_test_task/static/css/main.e014d372.chunk.css",
-    "main.js": "/Pangea_test_task/static/js/main.8b52ccd3.chunk.js",
-    "main.js.map": "/Pangea_test_task/static/js/main.8b52ccd3.chunk.js.map",
+    "main.js": "/Pangea_test_task/static/js/main.25b0bd7f.chunk.js",
+    "main.js.map": "/Pangea_test_task/static/js/main.25b0bd7f.chunk.js.map",
     "runtime-main.js": "/Pangea_test_task/static/js/runtime-main.41e9d2c0.js",
     "runtime-main.js.map": "/Pangea_test_task/static/js/runtime-main.41e9d2c0.js.map",
-    "static/js/2.088f4b5f.chunk.js": "/Pangea_test_task/static/js/2.088f4b5f.chunk.js",
-    "static/js/2.088f4b5f.chunk.js.map": "/Pangea_test_task/static/js/2.088f4b5f.chunk.js.map",
+    "static/js/2.df96388d.chunk.js": "/Pangea_test_task/static/js/2.df96388d.chunk.js",
+    "static/js/2.df96388d.chunk.js.map": "/Pangea_test_task/static/js/2.df96388d.chunk.js.map",
     "index.html": "/Pangea_test_task/index.html",
     "static/css/main.e014d372.chunk.css.map": "/Pangea_test_task/static/css/main.e014d372.chunk.css.map",
-    "static/js/2.088f4b5f.chunk.js.LICENSE.txt": "/Pangea_test_task/static/js/2.088f4b5f.chunk.js.LICENSE.txt"
+    "static/js/2.df96388d.chunk.js.LICENSE.txt": "/Pangea_test_task/static/js/2.df96388d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.41e9d2c0.js",
-    "static/js/2.088f4b5f.chunk.js",
+    "static/js/2.df96388d.chunk.js",
     "static/css/main.e014d372.chunk.css",
-    "static/js/main.8b52ccd3.chunk.js"
+    "static/js/main.25b0bd7f.chunk.js"
   ]
 }
