@@ -3,19 +3,38 @@ import classes from './App.module.scss'
 import { Button, Input } from '@material-ui/core'
 import Card from './Compnents/Card/Card'
 
+
 function App() {
-
-
 
 
   const [tags, setTags] = useState(['red', 'blue', 'green'])
   const [inputValue, setInputValue] = useState('')
 
 
+
+
   const location = document.location
 
-  //Asiggn to url we need from the start
-  location.replace(`${location.pathname}#tags=${[...tags]}`)
+  if (location.href.includes('#tags=')) {
+
+    const newTags = location.href.split('#tags=')[1].split(',').filter((x) => x)
+    //Check if the previous values in arrays are equal
+    const equal = JSON.stringify(newTags) === JSON.stringify(tags)
+
+    //If new values,replace with new values
+    if (!equal) {
+      setTags(newTags)
+      location.replace(`${location.pathname}#tags=${[...newTags]}`)
+
+      //Default values,go on with default
+    } else {
+      location.replace(`${location.pathname}#tags=${[...tags]}`)
+    }
+    //Replce if there is no '#tags' in Url
+  } else {
+    location.replace(`${location.pathname}#tags=${[...tags]}`)
+  }
+
 
 
 
@@ -27,6 +46,7 @@ function App() {
       newTags.push(inputValue)
       setTags(newTags)
       setInputValue('')
+      location.replace(`${location.pathname}#tags=${[...newTags]}`)
     }
   }
   //Handle Click on Tags (Delete tag)
@@ -34,6 +54,7 @@ function App() {
 
     const newTags = tags.filter((_, i) => i !== indexOfTag)
     setTags(newTags)
+    location.replace(`${location.pathname}#tags=${[...newTags]}`)
 
   }
 
