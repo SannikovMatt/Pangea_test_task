@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pangea_test_task/static/css/main.e014d372.chunk.css",
-    "main.js": "/Pangea_test_task/static/js/main.25b0bd7f.chunk.js",
-    "main.js.map": "/Pangea_test_task/static/js/main.25b0bd7f.chunk.js.map",
+    "main.js": "/Pangea_test_task/static/js/main.a7d78016.chunk.js",
+    "main.js.map": "/Pangea_test_task/static/js/main.a7d78016.chunk.js.map",
     "runtime-main.js": "/Pangea_test_task/static/js/runtime-main.41e9d2c0.js",
     "runtime-main.js.map": "/Pangea_test_task/static/js/runtime-main.41e9d2c0.js.map",
     "static/js/2.df96388d.chunk.js": "/Pangea_test_task/static/js/2.df96388d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.41e9d2c0.js",
     "static/js/2.df96388d.chunk.js",
     "static/css/main.e014d372.chunk.css",
-    "static/js/main.25b0bd7f.chunk.js"
+    "static/js/main.a7d78016.chunk.js"
   ]
 }
